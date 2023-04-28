@@ -1,6 +1,7 @@
-Have to create .env file in your working directory with contents:
-DB_NAME = "equivalen_score"
-DB_USER = "dwUser"
-DB_PASSWORD = "password"
-DB_HOST = "localhost"
+##Have to create .env file in your working directory with contents:
+
+DB_NAME = "equivalen_score" <br>
+DB_USER = "dwUser"<br>
+DB_PASSWORD = "password"<br>
+DB_HOST = "localhost"<br>
 DB_PORT = 3306
