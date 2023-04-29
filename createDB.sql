@@ -57,7 +57,8 @@ CREATE TABLE University
   MajorCode    VARCHAR(26)  NOT NULL,
   MajorName    VARCHAR(320) NOT NULL,
   SubjectGroup VARCHAR(3)   NOT NULL,
-  BenchMark    DECIMAL(5,2)   NOT NULL
+  BenchMark    DECIMAL(5,2)   NOT NULL,
+  YEAR         DECIMAL(4,0) NOT NULL
 );
 
 ALTER TABLE FactScore
@@ -70,4 +71,3 @@ ALTER TABLE FactScore
     FOREIGN KEY (year)
     REFERENCES DimYear (year);
 
-      
